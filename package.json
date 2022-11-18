@@ -3,6 +3,7 @@
   "description": "Presonal tech blog. Custom domain: alainQtec.dev",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://alainqtec.github.io",
   "dependencies": {
     "@sanity/client": "^2.23.2",
     "@sanity/image-url": "^1.0.1",
