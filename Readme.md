@@ -1,4 +1,8 @@
-# CodeCentral
+# [CodeCentral](alainQtec.github.io)
+
+A central hub to hosts alainQtec.dev 's coding projects.
+
+>Build using **[Qwik](https://qwik.builder.io/) + [Tailwind CSS](https://tailwindcss.com/)**.
 
 CodeCentral is a centralized repository that hosts documentation, guides, and resources for all my GitHub coding projects.
 
