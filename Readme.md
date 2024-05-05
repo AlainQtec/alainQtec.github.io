@@ -27,3 +27,5 @@ CodeCentral contains the following types of resources:
 4. **FAQs and Troubleshooting**: Frequently asked questions, common issues, and troubleshooting steps to help resolve problems or clarify misunderstandings.
 
 5. **Additional Resources**: Links to external resources, articles, blog posts, or other relevant materials that complement or provide further context to my projects.
+
+<!-- Hosted using GithubPages Based on this Guide https://googleweblight.com/?lite_url=https://betterprogramming.pub/how-to-host-your-react-app-on-github-pages-for-free-919ad201a4cb -->

@@ -12,7 +12,11 @@ export default defineConfig(() => {
             qwikCity({
                 trailingSlash: SITE.trailingSlash,
             }),
-            qwikVite(),
+            qwikVite({
+                client: {
+                outDir: 'docs/',
+                },
+            }),
             tsconfigPaths(),
         ],
         preview: {
