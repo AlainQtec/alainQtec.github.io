@@ -20,7 +20,7 @@ export default component$(() => {
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
                 <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                  Qwind
+                  alainQtec
                 </span>{" "}
                 is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>. It
                 has been designed following Best Practices, SEO, Accessibility,{" "}
@@ -34,7 +34,7 @@ export default component$(() => {
                 <div class="flex w-full sm:w-auto">
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="https://github.com/onwidget/qwind"
+                    href="https://github.com/onwidget/alainQtec"
                     target="_blank"
                     rel="noopener"
                   >
@@ -53,7 +53,7 @@ export default component$(() => {
               layout="constrained"
               width={493}
               height={616}
-              alt="Qwind Hero Image (Cool dog)"
+              alt="alainQtec Hero Image (Cool dog)"
               class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
               priority={true}
               breakpoints={[320, 480, 640, 768, 1024]}
