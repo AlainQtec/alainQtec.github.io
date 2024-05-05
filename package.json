@@ -10,8 +10,8 @@
     "trustedDependencies": [
         "sharp"
     ],
-        "trustedDependencies-annotation": "Needed for bun to allow running install scripts",
-        "private": true,
+    "trustedDependencies-annotation": "Needed for bun to allow running install scripts",
+    "private": true,
     "scripts": {
         "build": "qwik build",
         "build.client": "vite build",
@@ -34,6 +34,7 @@
         "gray-matter": "^4.0.3",
         "markdown-it": "^14.0.0",
         "node-fetch": "3.3.2",
+        "sharp": "^0.33.3",
         "tailwind-merge": "^2.2.1"
     },
     "devDependencies": {

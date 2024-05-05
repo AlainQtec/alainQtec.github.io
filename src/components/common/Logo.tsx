@@ -13,6 +13,6 @@ export default component$(() => (
       alt="alainQtec Logo"
       loading="lazy"
     />
-    alainQtec
+    CodeCentral
   </span>
 ));

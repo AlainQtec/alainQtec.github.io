@@ -20,7 +20,7 @@ export default component$(() => {
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
                 <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                  alainQtec
+                CodeCentral
                 </span>{" "}
                 is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>. It
                 has been designed following Best Practices, SEO, Accessibility,{" "}
