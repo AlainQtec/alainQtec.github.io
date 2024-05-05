@@ -1,0 +1,1 @@
+import{_ as t}from"./q-uemlvruI.js";import{g as o,q as e}from"./q-rN_hsXYx.js";import{S as r}from"./q-DxV2EH2a.js";const n=o(e(()=>t(()=>import("./q-BqJFV5rB.js"),[]),"s_f20UOrJeH0s")),m={title:"Projects by alainQtec",meta:[{name:"description",content:r.description}]};export{n as default,m as head};

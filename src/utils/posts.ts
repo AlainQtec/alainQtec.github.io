@@ -3,22 +3,22 @@ import matter from "gray-matter";
 
 import type { Post } from "~/types";
 
-const BLOG_DIR = "src/content/post";
+const PROJECT_DIR = "src/content/post";
 
 const load = () => {
-  const files = fs.readdirSync(BLOG_DIR);
+    const files = fs.readdirSync(PROJECT_DIR);
 
-  const posts = Promise.all(
-    files
-      .filter((filename) => filename.endsWith(".md"))
-      .map(async (filename) => {
-        const slug = filename.replace(".md", "");
-        return await findPostBySlug(slug);
-      })
-    // .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-  );
+    const posts = Promise.all(
+        files
+        .filter((filename) => filename.endsWith(".md"))
+        .map(async (filename) => {
+            const slug = filename.replace(".md", "");
+            return await findPostBySlug(slug);
+        })
+        // .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
+    );
 
-  return posts;
+    return posts;
 };
 
 let _posts: Post[];
@@ -59,7 +59,7 @@ export const findPostBySlug = async (slug: string): Promise<Post | null> => {
   if (!slug) return null;
 
   try {
-    const readFile = fs.readFileSync(BLOG_DIR + `/${slug}.md`, "utf-8");
+    const readFile = fs.readFileSync(PROJECT_DIR + `/${slug}.md`, "utf-8");
     const { data, content } = matter(readFile);
 
     const {
