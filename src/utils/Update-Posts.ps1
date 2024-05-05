@@ -1,0 +1,1 @@
+echo "This script runs on every launch to update posts"
